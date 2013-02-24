@@ -28,15 +28,17 @@ done
 
 echo "Options are... " ${options[@]}
 echo "Input folders are... " ${input_fold[@]}
+
 for (( i=0;i<$inputlen;i++ ))
 do
 	curr_fold=${input_fold[$i]}
 	for inputfile in $(ls $curr_fold);
 	do
 		echo "###################"
-		echo $inputfile
+		echo "Running cfglp on file -" $inputfile
 		for (( j=0;j<$optionslen;j++ ))
 		do
+			echo ">> Executing option -" ${options[$j]}
 			echo "==========================="
 			`"${user_impl}" "${options[$j]}" -d "${curr_fold}""${inputfile}" > "${output_fold}""${user_output}"`
 			echo "---------------------------"

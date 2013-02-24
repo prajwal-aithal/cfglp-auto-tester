@@ -5,6 +5,10 @@ Tester for the compilers lab (CS 306) assignment at IIT Bombay.
 ---
 This script helps you organize your testing (against the standard implementation) for the compilers Lab (CS 306) assignments.
 
+Requirements
+------------
+This script needs `meld` to be installed. `meld` is a GUI version of command-line `diff`.
+
 Usage
 -----
 1. Populate the paths-list file in the root folder (of this script) following the format given in the respective docs file.
