@@ -1,0 +1,17 @@
+The format of the paths-list file is as below (line wise) - 
+
+=================================================
+Standard implementation path
+My implementation path
+Output folder path
+Your ouput filename
+Standard ouput filename
+--
+All the cfglp options (one on each line)
+--
+Folder paths of all the input folders (one folder on each line, till the end of the file)
+=================================================
+
+Note that all the paths are to be given in the root format (i.e /home/user....).
+Options are to given as -OPTIONS format, where OPTIONS are the possible options to cfglp.
+There is no need to escape characterize the paths (no need to escape characterize spaces in the path).
