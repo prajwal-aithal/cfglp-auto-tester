@@ -47,3 +47,9 @@ do
 		done
 	done
 done
+
+echo "###################"
+echo "Deleting the output files..."
+`rm "${output_fold}""${user_output}"`
+`rm "${output_fold}""${standard_output}"`
+echo "Done...!!!"
