@@ -1,9 +1,11 @@
-/home/prajwal/Downloads/cfglp-fold/cfglp-64-bits
-/home/prajwal/Labs/CS 306/Assignment 3/3a/100050083_100050085/group34/cfglp
-/home/prajwal/Downloads/cfglp-fold/
+/home/user/...
+/home/user/...
+/home/user/...
 out_mine
 out_sir
 --
--tokens
+-symtab
+-ast
+-eval
 --
-/home/prajwal/Downloads/cfglp-fold/Tests/3/
+/home/user/...
