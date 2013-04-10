@@ -17,3 +17,31 @@ entering the directory of the script).
    `$ chmod +x cfglp-auto-tester.sh`
 3. Execute the script using the command
    `$ ./cfglp-auto-tester.sh`
+
+Output Format
+-------------
+The format of the output displayed in the terminal is as follows. For each file, all the options are executed and for each option the output format is - 
+
+```
+Running cfglp on file - file1.cfg
+>> Executing option - Option 1
+===========================
+Stdout output of your version for option 1
+---------------------------
+Stdout output of the reference version for option 1
+===========================
+>> Executing option - Option 2
+===========================
+Stdout output of your version for option 2
+---------------------------
+Stdout output of the reference version for option 2
+===========================
+...
+>> Executing option - Option n
+===========================
+Stdout output of your version for option n
+---------------------------
+Stdout output of the reference version for option n
+===========================
+Running cfglp on file - file2.cfg
+```
